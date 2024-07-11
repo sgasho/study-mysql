@@ -25,9 +25,9 @@ CREATE TABLE video_genre (
 );
 
 CREATE TABLE user_interest (
-   user_id VARCHAR(36) BINARY NOT NULL,
-   genre_id VARCHAR(36) BINARY NOT NULL,
-   weight INT NOT NULL
+    user_id VARCHAR(36) BINARY NOT NULL,
+    genre_id VARCHAR(36) BINARY NOT NULL,
+    weight INT NOT NULL
 );
 
 CREATE TABLE user_no_interest (
